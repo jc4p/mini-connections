@@ -1,0 +1,19 @@
+name = "mini-connections-api"
+main = "src/index.js"
+compatibility_date = "2025-05-29"
+
+
+# Smart Placement
+# Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
+# [placement]
+# mode = "smart"
+
+# Bindings
+# Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including
+# databases, object storage, AI inference, real-time communication and more.
+# https://developers.cloudflare.com/workers/runtime-apis/bindings/
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mini-connections-db"
+database_id = "b44c1e2b-cb3f-45f3-9083-b0b3c376d6ff"
